@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(241, 248, 248);
+  height: 60px;
+  padding-right: 1px;
+  padding-left: 1px;
+  border-color: blue;
+  border-bottom-style: outset;
+}
+.lefthead {
+  display: flex;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 20px;
+}
+.logo {
+  height: 60px;
+}
+.lefthead img {
+  height: 59px;
+}
+.whatsapp {
+  margin: 100px;
+}
+.righthead {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  gap: 20px;
+}
+/*.title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+  background-color: lavender;
+  border-radius: 10px;
+  padding: 1px 20px;
+  margin: 4px;
+  border-style: inset;
+  text-shadow: 1cm;
+}*/
+.option {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  border-top-right-radius: 30%;
+}
+
+a {
+  text-decoration: none;
+}
+.leftbox {
+  box-shadow: 0px 8px 0px 8px rgba(18, 20, 21, 0.1);
+  padding-left: 50px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(64, 104, 104);
+  border-width: 3px;
+  border-bottom-style: outset;
+  width: 92%;
+  z-index: -1;
+  color: grey;
+}
+.leftbox h5 {
+  padding: 1px;
+}
+.mcstitle {
+  font-weight: bolder;
+  font-size: 28px;
+  font-family: "Frijole", cursive;
+  font-weight: 400;
+  color: rgb(47, 51, 63);
+}
+.Enquiry1 {
+  position: absolute;
+  background-color: aliceblue;
+  padding: 30px;
+  margin-left: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px;
+  width: 40%;
+  height: 425px;
+}
+.Enquiry1 h4 {
+  text-align: center;
+}
+.Appoint {
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: Raleway, cursive;
+}
+.leftdown {
+  padding: 15px;
+}
+.headimg img {
+  padding-left: 40px;
+  height: 450px;
+  width: 95%;
+}
+.img2 {
+  margin-top: -50%;
+  background: none;
+}
+.noteph {
+  font-size: x-large;
+}
+
+.dropdown-content p:hover {
+  color: rgb(198, 66, 66);
+}
+
+.thinking-icon {
+  transition: opacity 0.5s ease-in-out;
+  border-width: 2px;
+  font-size: small;
+}
+.thinking-icon.blinking {
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.righthead img {
+  margin-top: -10px;
+}
+.righthead p {
+  margin-top: -10px;
+}
+.info-content {
+  padding: auto;
+  color: rgb(221, 119, 82);
+  box-sizing: content-box;
+  background-clip: content-box;
+  background-color: aliceblue;
+  border-radius: 10px;
+  z-index: -1;
+}

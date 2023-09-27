@@ -1,0 +1,67 @@
+.Enquiry {
+  position: absolute;
+  background-color: aliceblue;
+  padding: 30px;
+  margin-left: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px;
+  width: 40%;
+  height: 425px;
+
+}
+.Enquiry h4 {
+  text-align: center;
+  text-shadow: 30px;
+}
+.Appoint {
+  font-weight: bolder;
+  font-size: xx-large;
+  font-family: Raleway, cursive;
+  margin: 10px;
+}
+.form1 {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  margin: 25px;
+  padding-top: 3px;
+  }
+.form1 input {
+  margin: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: inherit;
+  box-shadow: 50px;
+  box-sizing: border-box;
+  width: 400px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: rgb(183, 221, 223);
+}
+.form1 textarea {
+  text-size-adjust: 10px;
+  padding-left: 10px;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: inherit;
+  height: 100px;
+  width: 500px;
+  background-color: rgb(183, 221, 223);
+}
+.form1 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(29, 129, 217);
+  color: aliceblue;
+  width: 150px;
+  height: 40px;
+  border-radius: 5%;
+  margin-left: 35%;
+  border-style: outset;
+  cursor: grab;
+  border-color: rgb(35, 17, 11);
+}
